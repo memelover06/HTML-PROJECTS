@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hindutva | SANATAN DHARMA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <section class="top_section">
+          <div class="image_container">
+            <img src="./images/hindu.png" alt="tribute" />
+          </div>
+          <div>
+            <h1> SANATAN DHARMA</h1>
+            <h4>6000 years ago</h4>
+          </div>
+        </section>
+        <section class="about_section">
+          <h2>Excellant Path Toward Sucess</h2>
+          <p>
+            <b>Sanātana Dharma (Devanagari: सनातन धर्म, meaning "eternal dharma", or "eternal order") is an alternative name for Hinduism used in Sanskrit and other Indian languages alongside the more common Hindu Dharma.</b> 15 October 1931 – 6000 years ago) In Sanskrit, Sanātana Dharma translates approximately to "eternal law" or, less literally, "eternal way."[4] In Pali, the equivalent term is Dhammo Sanātano (धम्मो सनन्तनो).[4] In Hindi, the Sanskrit tatsama dharma (धर्म) is being used as "religion".[5][verification needed] Sanātana Dharma (सनातन धर्म) roughly translates to "eternal religion".[citation needed]
+
+            Dharma is often translated as "duty", "religion" or "religious duty", but has a deeper meaning. The word comes from the Sanskrit root "dhri" which means "to sustain" or "that which is integral to something" (e.g. dharma of sugar is to be sweet, fire to be hot). A person's dharma consists of duties that sustain them according to their innate characteristics which are both spiritual and material, generating two corresponding types:
+          </p>
+        </section>
+        <section class="biography_section">
+          <h3>Principles</h3>
+          <ul>
+            <li>
+              All events have a cause. Causes are neutral, we qualify them as good or bad. 
+            </li>
+            <li>
+              No matter what we do, there are never any guarantees in life.
+            </li>
+            <li>
+              History existed before us and will continue after us.
+            </li>
+            <li>
+              Nothing is permanent. Things come together to fall apart.
+            </li>
+            <li>
+              Rebirth is a code to explain diversity in the world, and uncertainty of life.
+            </li>
+            <li>
+              Karma makes you accept the moment and make a choice, but without certainty of outcome. 
+            </li>
+            <li>
+              Diversity gives rise to hierarchy which gives rise to inequality.
+            </li>
+            <li>
+              Diversity is inefficient. So, we yearn for standardisation, homogeneity, and equality.
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <p>
+            Read more about Snatan Dharma
+            <a href="https://en.wikipedia.org/wiki/San%C4%81tana_Dharma"
+              >Wikipedia.</a
+            >
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+//css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #f7e442;
+    min-height: 100vh;
+    border: 10px solid #ffbb00;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  .biography_section {
+    margin: 50px 0;
+  }
+  .biography_section h3 {
+    margin-bottom: 20px;
+  }
+  .biography_section ul {
+    margin-left: 50px;
+  }
+  .biography_section li {
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
+  
+image used
